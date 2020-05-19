@@ -1,0 +1,19 @@
+*{
+  user-select: none;
+}
+
+@media (min-width: 768px){
+  .md\:w-64 {
+    width: 5rem;
+}
+.md\:ml-64 {
+  margin-left: 5rem;
+}
+tr{
+  margin-left: 15px;
+}
+}
+
+button:hover{
+  box-shadow:1px 1px 5px grey;
+}

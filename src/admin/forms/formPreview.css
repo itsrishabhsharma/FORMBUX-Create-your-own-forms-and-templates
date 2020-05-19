@@ -1,0 +1,112 @@
+.formPrvW {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 8px;
+    align-items: center;
+    height: 70vh;
+}
+.formPrvWL {
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10% auto 0 auto;
+    align-items: center;
+    height: 70vh;
+    width: 62vw;
+}
+div.prvWCode{
+    font-size: 1.7em;
+}
+div.prvWCode select{
+    outline: none;
+}
+input.inp{
+    outline: none;
+    border-bottom: 1px solid black;
+}
+span.prvwItemTitle{
+    font-size: 2.5em;
+}
+input.ant-input.prvwItemField{
+    width: 50vw;
+    font-size: 2.5em;
+    border: none;
+    border-bottom: 1px solid black;
+    -webkit-box-shadow:none !important ;
+
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+}
+span.opinionS:hover {
+    background: #d51bd55f;
+    color:white;
+}
+span.opinions.selected{
+    background: #cb09cbcd;
+    color:white;
+}
+img.imageFromPreview{
+    width: 45vw;
+    height: 60vh;
+}
+ol.previewOpts {
+    
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+ol.previewOpts li{
+    border: 1px solid saddlebrown;
+    /* width: 39%; */
+    font-size: 1.4em;
+    padding: 3px;
+    text-align: center;
+    margin-right: 5px;
+    margin-left: 12px;
+    border-radius: 7px;
+    margin-top: 1em;
+    cursor: pointer;
+    /* overflow: hidden */
+}
+ol.previewOpts li::marker{
+    visibility: hidden;
+}
+ol.previewOpts li::before {
+    color: red !important;
+    margin-left: 10px;
+}
+.cardimg{
+    margin-bottom: -3em;
+    z-index: 999;
+    background: #FFFFFF;
+    margin-right: 0.5em;
+    padding: 0.5em;
+    border-radius: 10px;
+}
+.payWrapper {
+    /* min-width: 35vw; */
+    background: #ffc0cb9e;
+    min-height: 310px;
+    width: 40vw;
+    display: flex;flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border-color: #ffc0cb;
+    border-style: solid;
+    border-width: 1.5px;
+    box-shadow: 0px 0px 7px #ec4c7142;
+}
+.opinionS{
+        border: 1px solid purple;
+        font-size: 20px;
+        cursor: pointer;
+        width: 2.5em;
+        padding-top: 0.5em;
+        text-align: center;
+        padding-bottom: 0.5em;
+        border-radius: 2px;
+}
+.ant-select.previewOpts.ant-select-single.ant-select-show-arrow {
+    width: 20vw;
+}
