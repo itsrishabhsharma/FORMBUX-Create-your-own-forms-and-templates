@@ -1,3 +1,15 @@
+
+<h1> FORMBUX- Create your own forms and templates </h1>
+
+<p> This webapp is created using Tailwind Starter Kit. </p>
+<p> This React.js app allows users to sign in/sign up to create forms from scratch or use existing templates made by other users as admin. </p>
+<p>Users can edit the forms by adding, deleting and updating the form fields/form items. </p>
+<p>The admin is responsible for creating customizable form templates which other users can use.</p> 
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
